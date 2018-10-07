@@ -1,0 +1,6 @@
+include "devframe-common", "devframe-web", "devframe-batch", "devframe-demon"
+
+project(':devframe-common').projectDir = new File(rootDir, '../devframe-common')
+project(':devframe-web').projectDir = new File(rootDir, '../devframe-web')
+project(':devframe-batch').projectDir = new File(rootDir, '../devframe-batch')
+project(':devframe-demon').projectDir = new File(rootDir, '../devframe-demon')
